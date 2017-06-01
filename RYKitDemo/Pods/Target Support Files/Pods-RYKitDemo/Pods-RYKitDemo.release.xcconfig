@@ -1,0 +1,8 @@
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+HEADER_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/Masonry" "${PODS_ROOT}/Headers/Public/RYImagePicker" "${PODS_ROOT}/Headers/Public/RYImagesScroller" "${PODS_ROOT}/Headers/Public/RYLabelCollection" "${PODS_ROOT}/Headers/Public/RYText" "${PODS_ROOT}/Headers/Public/SDWebImage"
+LIBRARY_SEARCH_PATHS = $(inherited) "$PODS_CONFIGURATION_BUILD_DIR/Masonry" "$PODS_CONFIGURATION_BUILD_DIR/RYImagePicker" "$PODS_CONFIGURATION_BUILD_DIR/RYImagesScroller" "$PODS_CONFIGURATION_BUILD_DIR/RYLabelCollection" "$PODS_CONFIGURATION_BUILD_DIR/RYText" "$PODS_CONFIGURATION_BUILD_DIR/SDWebImage"
+OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/Masonry" -isystem "${PODS_ROOT}/Headers/Public/RYImagePicker" -isystem "${PODS_ROOT}/Headers/Public/RYImagesScroller" -isystem "${PODS_ROOT}/Headers/Public/RYLabelCollection" -isystem "${PODS_ROOT}/Headers/Public/RYText" -isystem "${PODS_ROOT}/Headers/Public/SDWebImage"
+OTHER_LDFLAGS = $(inherited) -ObjC -l"Masonry" -l"RYImagePicker" -l"RYImagesScroller" -l"RYLabelCollection" -l"RYText" -l"SDWebImage" -l"sqlite3" -l"z" -framework "Foundation" -framework "ImageIO" -framework "UIKit"
+PODS_BUILD_DIR = $BUILD_DIR
+PODS_CONFIGURATION_BUILD_DIR = $PODS_BUILD_DIR/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
+PODS_ROOT = ${SRCROOT}/Pods

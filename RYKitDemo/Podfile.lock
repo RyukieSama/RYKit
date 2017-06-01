@@ -1,0 +1,31 @@
+PODS:
+  - Masonry (1.0.2)
+  - RYImagePicker (0.0.3):
+    - Masonry (~> 1.0.2)
+  - RYImagesScroller (0.0.1):
+    - Masonry
+    - SDWebImage
+  - RYLabelCollection (0.0.1):
+    - Masonry
+  - RYText (0.0.3)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - RYImagePicker
+  - RYImagesScroller
+  - RYLabelCollection
+  - RYText
+
+SPEC CHECKSUMS:
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  RYImagePicker: 465ba50dcf3ed725479285985dd13b18397c78d1
+  RYImagesScroller: eba051e15dda16f203dbe9328466fde579d2eaca
+  RYLabelCollection: 2cc6d07cbbf7650c797aefa7525fa819d1ab4d1a
+  RYText: 9867578b3211e5e8e89e985fc9bc272a4099ad48
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: e9bb0dbf51cf2f18ece320a38614df538bea6225
+
+COCOAPODS: 1.2.0

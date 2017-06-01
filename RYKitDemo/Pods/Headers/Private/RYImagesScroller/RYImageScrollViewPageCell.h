@@ -1,0 +1,1 @@
+../../../RYImagesScroller/RYImagesScroller/RYImageScrollViewPageCell.h
