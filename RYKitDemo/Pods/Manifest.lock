@@ -1,8 +1,8 @@
 PODS:
   - Masonry (1.0.2)
-  - RYImagePicker (0.0.3):
+  - RYImagePicker (0.0.4):
     - Masonry (~> 1.0.2)
-  - RYImagesScroller (0.0.1):
+  - RYImagesScroller (0.0.2):
     - Masonry
     - SDWebImage
   - RYLabelCollection (0.0.1):
@@ -20,8 +20,8 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  RYImagePicker: 465ba50dcf3ed725479285985dd13b18397c78d1
-  RYImagesScroller: eba051e15dda16f203dbe9328466fde579d2eaca
+  RYImagePicker: 842b8fb62000c185a85ac5e3c2f8d53196f19f5e
+  RYImagesScroller: fc5896141828d3f9e2532b7dc1328cf4fa04ad25
   RYLabelCollection: 2cc6d07cbbf7650c797aefa7525fa819d1ab4d1a
   RYText: 9867578b3211e5e8e89e985fc9bc272a4099ad48
   SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
